@@ -12,7 +12,7 @@ import (
 
 func main() {
 
-	client, err := ethclient.Dial("https://mainnet.infura.io/v3/f2e799e62655472cbaf43f0cea4d765e")  // add your own rpc 
+	client, err := ethclient.Dial("https://cloudflare-eth.com")  // add your own rpc 
 	if err != nil {
 		log.Fatal(err)
 	}
