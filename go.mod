@@ -3,7 +3,7 @@ module github.com/olaoyesalem/create-client
 go 1.24.0
 
 require (
-	github.com/ethereum/go-ethereum v1.15.2
+	github.com/ethereum/go-ethereum v1.15.3
 	golang.org/x/crypto v0.32.0
 )
 
